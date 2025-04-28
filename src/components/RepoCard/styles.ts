@@ -1,5 +1,5 @@
 import {styled, css} from 'styled-components';
-import { RiBookmarkLine, RiStarLine } from 'react-icons/ri';
+import { RiBookMarkedLine, RiStarLine } from 'react-icons/ri';
 import { AiOutlineFork } from 'react-icons/ai';
 
 export const Container = styled.div`
@@ -80,7 +80,7 @@ const iconCSS = css`
     flex-shrink: 0;
 `;
 
-export const RepoIcon = styled(RiBookmarkLine)`${iconCSS}`;
+export const RepoIcon = styled(RiBookMarkedLine)`${iconCSS}`;
 
 export const StarIcon = styled(RiStarLine)`${iconCSS}`;
 
